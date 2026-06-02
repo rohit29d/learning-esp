@@ -1,0 +1,39 @@
+menu "OLED Driver Configuration"
+
+    config OLED_DRIVER_I2C_PORT
+        int "I2C port"
+        default 0
+
+    config OLED_DRIVER_PIN_SDA
+        int "I2C SDA GPIO"
+        default 21
+
+    config OLED_DRIVER_PIN_SCL
+        int "I2C SCL GPIO"
+        default 22
+
+    config OLED_DRIVER_PIN_RST
+        int "OLED reset GPIO (-1 if unused)"
+        default -1
+
+    config OLED_DRIVER_I2C_ADDRESS
+        hex "OLED I2C address"
+        default 0x3C
+
+    config OLED_DRIVER_I2C_CLOCK_KHZ
+        int "OLED I2C clock speed in kHz"
+        default 400
+
+    config OLED_DRIVER_WIDTH
+        int "OLED width in pixels"
+        default 128
+
+    config OLED_DRIVER_HEIGHT
+        int "OLED height in pixels"
+        default 64
+
+    config OLED_DRIVER_INVERT_COLOR
+        bool "Invert OLED colors"
+        default n
+
+endmenu

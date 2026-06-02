@@ -1,0 +1,10 @@
+Command: cmake -G Ninja -B C:\Users\Administrator\Desktop\Rohit\esp_learn\i2c_oled\build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=C:\Espressif\tools\python\v6.0.1\venv\Scripts\python.exe -DESP_PLATFORM=1 -DCCACHE_ENABLE=False C:\Users\Administrator\Desktop\Rohit\esp_learn\i2c_oled
+Loading defaults file C:/Users/Administrator/Desktop/Rohit/esp_learn/i2c_oled/sdkconfig.defaults...
+Configuration Report               
++---------------------------------+
+|  Parser Version: 1              |
+|  Verbosity: default             |
+|  Defaults policy: sdkconfig     |
+|  Status: Finished successfully  |
+|                                 |
++---------------------------------+
