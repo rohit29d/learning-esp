@@ -36,7 +36,7 @@ void app_main(void)
             printf("touch detected");
         }
         
-        vTaskDelay(pdMS_TO_TICKS(1000));
+        vTaskDelay(pdMS_TO_TICKS(100));
         printf("cpu handling other task.....\n");
     }
 }
