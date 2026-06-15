@@ -170,6 +170,7 @@ static void handle_default_substates(void)
 static void handle_ai_substates(void)
 {
     /* placeholder – add AI substates here */
+    
     (void)0;
 }
 
@@ -195,12 +196,14 @@ static void handle_default_state(void)
 static void handle_ai_state(void)
 {
     printf("-- STATE_AI --\n");
+    vTaskDelay(pdMS_TO_TICKS(5000));
     handle_ai_substates();
 }
 
 static void handle_settings_state(void)
 {
     printf("-- STATE_SETTINGS --\n");
+    vTaskDelay(pdMS_TO_TICKS(5000));
     handle_settings_substates();
 }
 
